@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/prism/prism.png);
+}
+
+.navbar-toggle .icon-bar {
+    width: 30px;
+    height: 1px;
+}
+
+.navbar-header {
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar-header span {
+    padding: 2px;
+    font-size: 1.05em;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default {
+    background-color: #4aaaa5;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 2.0em;
+    text-align: center;	
+    padding: 15px 50px;
+    float: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.container-box {
+    position: relative;
+}
+
+.text-block {
+    text-align: center;
+    content: flex;
+    position: absolute;
+    top: 60%;
+    width: 91%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4aaaa5;
+    color: #fff;
+
+}
+
+
+.btn {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.nav-link {
+    color: #777;
+}
+
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h6 {
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.container1 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    color: #777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    max-width: 960px;
+    overflow: hidden;
+}
+
+footer {
+    color: #ddd;
+    background-color: #666;
+    text-align: center;
+    overflow: hidden;
+    border-top: #4aaaa5 2px solid;
+    padding-bottom: 20px;
+}
+
+/*Portfolio html*/
+ul {
+	padding: 0px;
+}
+
+#portfolio {
+	margin: 35px 13% 35px 13%;
+	background: #fff;
+	overflow: auto;
+}
+
+#portfolio h2 {
+	font-size: 1.7em;
+	font-weight: bold;
+	padding: 0px 0px 0px 15px;
+	color: #4aaaa5;
+}
+
+#portfolio hr {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#portfolio li {
+	list-style: none;
+	width: 90%;
+	height: 200px;
+	margin: 15px 5% 20px 5%;
+}
+
+#portfolio img {
+	width: 100%;
+	height: 100%;
+}
+
+.projectName {
+	color: #fff;
+	background-color: #4aaaa5;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+	bottom: 53px;
+}
+
+/* Contact html */
+
+#contact {
+	margin: 35px 13% 35px 13%;
+	background: #fff;
+}
+
+#contact h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 0px 0px 15px;
+	color: #4aaaa5;
+}
+
+#contact hr {
+	margin-right: 15px;
+}
+
+#contact form {
+	color: #777777;
+}
+
+#contact form input {
+    color: #777777;
+    width: 72%;
+    margin-bottom: 7px;
+    margin-top: 3px;
+}
+
+#contact span {
+	font-size: 1.1em;
+}
+
+#name {
+	height: 30px;
+	margin-bottom: 5px;
+}
+
+#name[type=text] {
+	font-size: 13px; 
+	opacity: 0.7;
+}
+
+#email[type=text] {
+	font-size: 13px;
+	opacity: 0.7;
+}
+
+#message[type=text] {
+	line-height: 0px;
+}
+
+#email {
+	height: 30px;
+	margin-bottom: 5px;	
+}
+
+#message {
+	height: 185px;
+	margin-bottom: 10px;
+}
+
+#submit[type=submit] {
+	color: #fff;
+	width: 70px;
+ 	height: 30px;
+ 	background: #4aaaa5;
+ 	border: none;
+ 	margin-top: 5px;
+ 	border-radius: 2px;
+ 	font-size: 13px;
+}
+
+
+/* Media Queries (makes website suitable for mobile devices) */
+@media(max-width: 768px) {
+
+
+    .navbar-brand,
+    .navbar,
+    .nav-item,
+    .navbar-nav,
+    .nav-item,
+    footer {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+
+
+    }
+
+    .navbar-brand {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+
+
+}
